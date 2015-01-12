@@ -7,7 +7,7 @@ if Meteor.isClient
       callback = options
       options = null
     credentialRequestCompleteCallback = Accounts.oauth.credentialRequestCompleteHandler(callback)
-    Meetup.requestCredential options, credentialRequestCompleteCallback
+    Twitch.requestCredential options, credentialRequestCompleteCallback
     return
 else
   Accounts.addAutopublishFields
