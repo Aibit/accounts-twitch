@@ -1,7 +1,7 @@
 Package.describe({
   name: "jameslefrere:accounts-twitch",
   summary: "Login service for Twitch.tv accounts",
-  version: "0.2.1",
+  version: "0.2.2",
   git: "https://github.com/JamesLefrere/accounts-twitch.git"
 });
 
