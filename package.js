@@ -1,7 +1,7 @@
 Package.describe({
   name: "jameslefrere:accounts-twitch",
   summary: "Login service for Twitch.tv accounts",
-  version: "0.2.5",
+  version: "0.2.6",
   git: "https://github.com/JamesLefrere/accounts-twitch.git"
 });
 
@@ -12,7 +12,7 @@ Package.onUse(function(api) {
     "accounts-base",
     "accounts-oauth",
     ], ["client", "server"]);
-  api.use("jameslefrere:twitch@0.1.2", ["client", "server"]);
+  api.use("jameslefrere:twitch@0.1.3", ["client", "server"]);
   api.addFiles("twitch_login_button.css", "client");
   api.addFiles("twitch.coffee");
 });
