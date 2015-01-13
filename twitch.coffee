@@ -19,4 +19,4 @@ else
     # be used from the client (if transmitted over ssl or on
     # localhost). http://api.twitch.tv/kraken/auth/#oauth2implicit
     forLoggedInUser: ["services.twitch"]
-    forOtherUsers: ["services.twitch.id"]
+    forOtherUsers: ["services.twitch.id", "services.twitch.name"]
