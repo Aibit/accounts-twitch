@@ -12,7 +12,7 @@ Package.onUse(function(api) {
     "accounts-base",
     "accounts-oauth",
     ], ["client", "server"]);
-  api.use("aibit:twitch", ["client", "server"]);
+  api.use("aibit:twitch@0.1.5", ["client", "server"]);
   api.addFiles("twitch_login_button.css", "client");
   api.addFiles("twitch.coffee");
 });
