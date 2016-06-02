@@ -7,7 +7,7 @@ if Meteor.isClient
       callback = options
       options = null
 
-    if !options.requestPermissions? then options.requestPermissions = ["user_read"]
+    if !options.requestPermissions? then options.requestPermissions = ["user_read", "chat_login","channel_subscriptions","channel_editor","channel_editor"]
 
     credentialRequestCompleteCallback = Accounts.oauth.credentialRequestCompleteHandler(callback)
     Twitch.requestCredential options, credentialRequestCompleteCallback

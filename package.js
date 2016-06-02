@@ -1,7 +1,7 @@
 Package.describe({
   name: "aibit:accounts-twitch",
   summary: "Login service for Twitch.tv accounts",
-  version: "0.2.7",
+  version: "0.3.0",
   git: "https://github.com/Aibit/accounts-twitch.git"
 });
 
